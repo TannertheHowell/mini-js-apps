@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <title>CS 2410 Assn 2 MadLibs and the Mortgage Calculator</title>
+  </head>
+  <body>
+    <main>
+        <h1><strong>Mini Applications</strong></h1>
+        <div>
+            <h2>Mad Libs</h2>
+            <div>
+                Proper Noun:       
+                <input id="properNoun" type="text"/>
+            </div>
+
+            <div>
+                Verb (past tense): 
+                <input id="verbPastTense1" type="text"/>
+            </div>
+
+            <div>
+                Verb (past tense): 
+                <input id="verbPastTense2" type="text"/>
+            </div>
+            
+            <div>
+                Adjective:        
+                <input id="adjective" type="text"/>
+            </div>
+
+            <div>
+                Object:         
+                <input id="object" type="text"/>
+            </div>
+
+            <div>
+                <button id="generateButton">Generate</button>
+            </div>
+
+            <div id="MadLibsOutput"></div>
+        </div>
+<!-- Trying another way to organize HTML divs for the Mortage Calculator-->
+        <div>
+            <h2><strong>Mortgage Calculator</strong></h2>
+            
+            <label>
+                <div>Loan Amount:</div>
+                <input id="loanAmount" type="number"/>
+            </label>
+            
+            <label>
+                <div>Annual Interest Rate:</div>
+                <input id="annualInterestRate" type="number"/>
+            </label>
+
+            <label>
+                <div>Number of Years:</div>
+                <input id="numberOfYears" type="number"/>
+            </label>
+
+            <div id="mortgageOutput"></div>
+
+        </div>
+        
+    </main>
+	<script src=madlibs.js></script>
+    <script src=mortgagecalculator.js></script>
+  </body>
+</html>
